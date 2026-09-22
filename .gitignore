@@ -427,3 +427,43 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Временные файлы
+*.tmp
+*.log
+*.cache
+
+# Скомпилированные файлы
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+*.ilk
+*.idb
+
+# Папки сборки
+build/
+bin/
+obj/
+Debug/
+Release/
+.vs/
+
+# Тексты, документы, архивы (по требованию лабы)
+*.txt
+*.docx
+*.pdf
+*.pptx
+*.zip
+*.mp4
+
+# Папка docs (если указано в задании)
+docs/
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
